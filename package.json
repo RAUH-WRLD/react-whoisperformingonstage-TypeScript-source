@@ -1,0 +1,37 @@
+{
+    "name": "whoisperformingonstage",
+    "version": "1.0.0",
+    "description": "wipos",
+    "main": "index.ts",
+    "dependencies": {
+        "@types/needle": "^2.5.3",
+        "body-parser": "^1.20.0",
+        "cheerio": "^1.0.0-rc.12",
+        "concurrently": "^7.2.2",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "firebase": "^9.9.0",
+        "needle": "^3.1.0",
+        "nodemon": "^2.0.19",
+        "path": "^0.12.7",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.7.4"
+    },
+    "devDependencies": {
+        "@types/body-parser": "^1.19.2",
+        "@types/cookie-parser": "^1.4.3",
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.13",
+        "typescript": "^4.7.4"
+    },
+    "scripts": {
+        "build": "tsc",
+        "frontend": "npm run dev --prefix client",
+        "backend": "nodemon index.ts",
+        "start": "node index.js",
+        "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    },
+    "author": "Ilya Smirnov",
+    "license": "ISC"
+}

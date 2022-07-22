@@ -1,0 +1,30 @@
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@types/react-html-parser": "^2.0.2",
+        "foundation-sites": "^6.7.4",
+        "next": "12.2.2",
+        "node-sass": "^7.0.1",
+        "normalize.css": "^8.0.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-html-parser": "^2.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "18.0.3",
+        "@types/react": "18.0.15",
+        "@types/react-dom": "18.0.6",
+        "axios": "^0.27.2",
+        "eslint": "8.19.0",
+        "eslint-config-next": "12.2.2",
+        "typescript": "4.7.4"
+    }
+}
